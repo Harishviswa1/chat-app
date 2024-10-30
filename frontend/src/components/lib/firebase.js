@@ -5,12 +5,7 @@ import {getFirestore} from "firebase/firestore";
 import {getStorage} from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey:import.meta.env.VITE_API_KEY,
-  authDomain: "chat-application-d4ddf.firebaseapp.com",
-  projectId: "chat-application-d4ddf",
-  storageBucket: "chat-application-d4ddf.appspot.com",
-  messagingSenderId: "363381118151",
-  appId: "1:363381118151:web:be4daa3c8fd4bdf26c9ae2"
+ 
 };
 
 const app = initializeApp(firebaseConfig);
